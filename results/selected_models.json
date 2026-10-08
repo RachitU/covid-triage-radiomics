@@ -1,0 +1,77 @@
+{
+  "ICU/Radiom": {
+    "fe": "none",
+    "model": "LR",
+    "cv_auroc": 0.763
+  },
+  "ICU/RadiomClin": {
+    "fe": "smoteenn_lasso",
+    "model": "LR",
+    "cv_auroc": 0.8435
+  },
+  "ICU/RadiomClinLab": {
+    "fe": "smoteenn",
+    "model": "LR",
+    "cv_auroc": 0.8386
+  },
+  "ICU/ClinLab": {
+    "fe": "none",
+    "model": "RF",
+    "cv_auroc": 0.8363
+  },
+  "ICU/RScore": {
+    "fe": "none",
+    "model": "LR",
+    "cv_auroc": 0.6862
+  },
+  "MV/Radiom": {
+    "fe": "none",
+    "model": "LR",
+    "cv_auroc": 0.757
+  },
+  "MV/RadiomClin": {
+    "fe": "smoteenn_lasso",
+    "model": "LR",
+    "cv_auroc": 0.8195
+  },
+  "MV/RadiomClinLab": {
+    "fe": "none",
+    "model": "LR",
+    "cv_auroc": 0.8084
+  },
+  "MV/ClinLab": {
+    "fe": "none",
+    "model": "LR",
+    "cv_auroc": 0.8458
+  },
+  "MV/RScore": {
+    "fe": "smoteenn",
+    "model": "LightGBM",
+    "cv_auroc": 0.6814
+  },
+  "Death/Radiom": {
+    "fe": "smoteenn_lasso",
+    "model": "RF",
+    "cv_auroc": 0.7449
+  },
+  "Death/RadiomClin": {
+    "fe": "smoteenn",
+    "model": "LightGBM",
+    "cv_auroc": 0.8447
+  },
+  "Death/RadiomClinLab": {
+    "fe": "smoteenn_lasso",
+    "model": "RF",
+    "cv_auroc": 0.9186
+  },
+  "Death/ClinLab": {
+    "fe": "smoteenn",
+    "model": "LightGBM",
+    "cv_auroc": 0.9098
+  },
+  "Death/RScore": {
+    "fe": "none",
+    "model": "LR",
+    "cv_auroc": 0.6297
+  }
+}
