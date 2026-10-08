@@ -1,11 +1,5 @@
 # CT-based Patient Triage of COVID-19 — Sample Mini-Project (UE24CS352A)
 
-> **FACULTY SAMPLE SOLUTION — for illustration only.**
-> This repository shows students what a complete mini-project submission looks like
-> (code, README, write-up, slides). It uses **synthetic data**. The metrics it reports have
-> **no clinical meaning** and must not be quoted as real results. Do not copy this project
-> for your own problem statement; use it for structure and standards.
-
 ## Problem statement
 
 Predict, at hospital admission, which COVID-19 patients will go on to (1) be admitted to the ICU,
@@ -70,13 +64,6 @@ src/pipeline.py                  full experiment (selection, validation, bootstr
 demo.py                          quick live demo for the review session
 results/                         tables and figures produced by pipeline.py
 docs/                            2-page write-up (PDF) and review slides
-```
-
-## Rebuilding the write-up and slides
-
-```bash
-python docs/build_writeup.py       # needs reportlab; reads results/*.csv, writes docs/COVID_Triage_Writeup.pdf
-node docs/build_deck.js            # needs pptxgenjs; reads docs/deck_data.json
 ```
 
 ## Limitations
